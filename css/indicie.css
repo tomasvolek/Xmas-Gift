@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+font-family: 'Bree Serif', serif;
+font-size: 25px;
+background-color: transparent;
+color: white;
+float: left;
+
+/* navbar */ 
+
+}
+.navbar-brand {
+	font-size: 25px;
+	margin-right: 40px;
+}
+.navbar-inverse {
+	background-color: #080808;
+
+}
+.navbar-inverse .navbar-brand {
+	color: #cb5c14;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #cb5c14; }
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #cb5c14;
+}
+
+
+.full {
+    background: url('../img/2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1 {
+	background-color: black;
+	opacity: 0.8;
+	padding: 10px;
+	
+}
+p{
+	background-color: black;
+	opacity: 0.8;
+	padding: 8px;
+	font-size: 90%;
+}
+
+p:hover {
+	opacity: 1;
+}
+h1 {	
+	margin-bottom: 20px;
+}
+#main-content {
+	
+	margin-top: 50px;
+	
+}
+
+
+#osem {
+	font-size: 70%;
+}
+
+@media (max-width: 767px) {
+.nav>li:hover {
+background-color: grey;
+}
+
+@media (max-width: 339px) {
+	.navbar-brand {
+	margin-right: 15px;
+}
+
+

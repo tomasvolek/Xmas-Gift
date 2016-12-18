@@ -1,0 +1,81 @@
+/*
+ * Start Bootstrap - Full (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+body {
+  margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+font-family: 'Bree Serif', serif;
+font-size: 25px;
+box-sizing: border-box;
+background-color: transparent;
+color: white;
+float: left;
+
+/* navbar */ 
+}
+.navbar-brand {
+	font-size: 25px;
+	margin-right: 40px;
+}
+.navbar-inverse {
+	background-color: #080808;
+
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #cb5c14; }
+
+.navbar-inverse .navbar-brand {
+	color: #cb5c14;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #cb5c14;
+}
+
+
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background: url('../img/2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+/*main content*/
+#uvod {
+	background-color: black;
+	opacity: 0.8;
+	margin-top: 80px;
+	padding: 10px;
+	color: white;
+	font-size: 110%;
+}
+
+#main-content {
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+
+@media (min-width: 558px) {
+	#main-content {
+		width: 500px;
+	}
+}
+
+@media (max-width: 767px) {
+.nav>li:hover {
+background-color: grey;
+}
+}
+
+@media (max-width: 339px) {
+	.navbar-brand {
+	margin-right: 15px;
+}
